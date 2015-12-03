@@ -1,0 +1,102 @@
+$main-title-font: Oldtown, fantasy; 
+$div-text-font: Parkavenue, cursive;
+$div-text-size: 1.5em;
+$div-text-color: #F5F5F5;
+$small-div-color: #B8860B;
+$long-div-color: #dc143c;
+$main-div-color: #E0FFFF;
+$inside-div-color: #778899;
+$small-div-margin: 500px 100px; 
+$main-div-margin: 100 0;
+$long-div-margin: 100px 0;
+$inside-div-margin: 100px 50px;
+
+
+body { 
+	background-color: #8A2BE2;
+
+}
+li {
+	display: inline;
+	font-size: 2em;
+	
+}
+
+li a {
+	text-align: center;
+	padding: 10px;
+	color: $main-title-font;
+	
+}
+
+ul{
+	
+	background-color: white;
+
+}
+
+nav {
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+@import 'sizes';
+
+.mainBox {
+	color: $div-text-color;
+	background-color: $main-div-color;
+	margin: $main-div-margin;
+	padding: 100px;
+
+}
+
+.mainBox:hover {
+	background-color: yellow; 
+}
+
+.insideBox { 
+	background-color: $inside-div-color;
+	margin: $inside-div-margin;
+	font-size: $div-text-size;
+	padding: 5px;
+
+
+}
+
+.longBox {
+	background-color: $long-div-color;
+	margin: $inside-div-margin;
+	width: cover;
+	height: 250px;
+
+}
+
+.smallBox {
+	background-color: $small-div-color;
+	margin: $inside-div-margin;
+	font-size: $div-text-size;
+	width: 500px;
+	height: 500px;
+	float: right;
+	//padding: 5px; - everytime I try 
+	//to add padding it starts to stack on top of other elements
+	
+}
+
+#bigContainer {
+	@extend .mainBox;
+}
+.tripple {
+	float: right;
+	@extend .longBox
+
+}
+//#two {
+//	padding: 6px;
+//}
+#one {
+	padding: 6px;
+}
+

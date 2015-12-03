@@ -1,0 +1,28 @@
+span {
+
+	width: 500px;
+	height: 200px;
+	margin: 200px 200px;
+}
+
+.tripple {
+	width: 200px;
+	height: 250px;
+}
+
+#bigContainer,
+.mainBox {
+	width: cover;
+	height: 500px;
+}
+
+.insideBox //Question for class: Why does this smallBox and longbox
+// stack on top of each other when I add padding to their properties?
+.smallBox,
+.longBox {
+	padding: 10px;
+	text-align: center;
+
+}
+
+

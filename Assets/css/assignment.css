@@ -1,0 +1,79 @@
+body {
+  background-color: #8A2BE2; }
+
+li {
+  display: inline;
+  font-size: 2em; }
+
+li a {
+  text-align: center;
+  padding: 10px;
+  color: Oldtown, fantasy; }
+
+ul {
+  background-color: white; }
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; }
+
+span {
+  width: 500px;
+  height: 200px;
+  margin: 200px 200px; }
+
+.tripple {
+  width: 200px;
+  height: 250px; }
+
+#bigContainer,
+.mainBox,
+#bigContainer {
+  width: cover;
+  height: 500px; }
+
+.insideBox
+.smallBox,
+.longBox,
+.tripple {
+  padding: 10px;
+  text-align: center; }
+
+.mainBox, #bigContainer {
+  color: #F5F5F5;
+  background-color: #E0FFFF;
+  margin: 100 0;
+  padding: 100px; }
+
+.mainBox:hover, #bigContainer:hover {
+  background-color: yellow; }
+
+.insideBox {
+  background-color: #778899;
+  margin: 100px 50px;
+  font-size: 1.5em;
+  padding: 5px; }
+
+.longBox, .tripple {
+  background-color: #dc143c;
+  margin: 100px 50px;
+  width: cover;
+  height: 250px; }
+
+.smallBox {
+  background-color: #B8860B;
+  margin: 100px 50px;
+  font-size: 1.5em;
+  width: 500px;
+  height: 500px;
+  float: right; }
+
+.tripple {
+  float: right; }
+
+#one {
+  padding: 6px; }
+
+/*# sourceMappingURL=assignment.css.map */
